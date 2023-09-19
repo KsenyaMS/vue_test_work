@@ -75,9 +75,6 @@
       padding: 20px;
       padding-bottom: 0px;
       align-items: center;
-      /* place-content: center;
-      background-position: 50% 50%;
-      background-size: cover; */
     }
     .inform-style {
       width: 55%;
