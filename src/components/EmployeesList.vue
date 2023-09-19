@@ -44,6 +44,7 @@ export default {
         .then((json) => {data.value = json;}));
     
     function handleStatusChange(event) {
+      data.value = [];
       fetch(`https://jsonplaceholder.typicode.com/users?name=${event.target.value}`)
         .then((response) => response.json())
         .then((json) => {data.value = json});
